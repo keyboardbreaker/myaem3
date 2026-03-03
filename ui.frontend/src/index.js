@@ -12,6 +12,7 @@ import LocalDevModelClient from './LocalDevModelClient';
 import './components/import-components';
 import './index.css';
 import './styles/hero.css';
+import './styles/layout.css';
 
 const modelManagerOptions = {};
 if(process.env.REACT_APP_PROXY_ENABLED) {
