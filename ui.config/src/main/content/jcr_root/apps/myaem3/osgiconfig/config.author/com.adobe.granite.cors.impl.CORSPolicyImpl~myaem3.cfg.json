@@ -1,15 +1,27 @@
 {
-  "alloworigin": ["http://localhost:3000"],
-  "allowedpaths": ["/(content|conf)/myaem3.*"],
-  "supportedheaders": [
-    "Authorization",
-    "Origin",
-    "Accept",
-    "X-Requested-With",
-    "Content-Type",
-    "Access-Control-Request-Method",
-    "Access-Control-Request-Headers"
+  "supportscredentials": true,
+  "allowedmethods": [
+    "GET",
+    "HEAD",
+    "POST",
+    "OPTIONS"
   ],
-  "supportedmethods": ["GET","HEAD"],
-  "alloworiginregexp": []
+  "alloworigin": [
+    "http://localhost:3000"
+  ],
+  "allowedheaders": [
+    "authorization",
+    "content-type",
+    "x-requested-with",
+    "accept"
+  ],
+  "exposedheaders": [
+    "Content-Type",
+    "Authorization",
+    "X-Requested-With"
+  ],
+  "maxage": "3600",
+  "allowedpaths": [
+    "/content/myaem3/.*"
+  ]
 }
