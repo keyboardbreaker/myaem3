@@ -45,3 +45,10 @@
   font-weight: 800;
   margin-bottom: 1rem;
 }
+
+/* Make the anchor white */
+.cmp-teaser--hero .cmp-teaser__title-text a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "BebasNeue", sans-serif;
+}
