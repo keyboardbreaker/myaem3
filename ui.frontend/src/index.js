@@ -13,6 +13,7 @@ import './components/import-components';
 import './index.css';
 import './styles/hero.css';
 import './styles/layout.css';
+import './styles/font.css';
 import './styles/orange-promo.css';
 const modelManagerOptions = {};
 if(process.env.REACT_APP_PROXY_ENABLED) {

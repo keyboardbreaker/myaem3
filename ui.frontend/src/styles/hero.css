@@ -52,3 +52,7 @@
   text-decoration: none;
   font-family: "BebasNeue", sans-serif;
 }
+
+.cmp-teaser--hero .cmp-teaser__title h2 a {
+  font-size: 8vw;
+}
