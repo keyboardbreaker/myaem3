@@ -2,57 +2,47 @@
 .cmp-teaser--hero {
   position: relative;
   width: 100%;
-  min-height: 60vh;
+  min-height: 80vh;
   overflow: hidden;
 }
 
-/* Make the image fill the whole area */
-.cmp-teaser--hero .cmp-teaser__image,
-.cmp-teaser--hero .cmp-teaser__image img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/* Add a dark gradient overlay to improve text contrast */
-.cmp-teaser--hero::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    to bottom,
-    rgba(0,0,0,0.2),
-    rgba(0,0,0,0.7)
-  );
-  z-index: 1;
-}
-
-/* Move text *over* the image */
 .cmp-teaser--hero .cmp-teaser__content {
-  position: relative;
-  z-index: 2;   /* ABOVE image overlay */
+  position: absolute;
+  z-index: 2;
   color: #fff;
   padding: 3rem;
   max-width: 60rem;
-  bottom: 0;
+  top: 30rem;
+  height: 100vh;
 }
 
-/* Optional: Make title large like Army Jobs hero */
 .cmp-teaser--hero .cmp-teaser__title {
   font-size: 3rem;
   font-weight: 800;
   margin-bottom: 1rem;
+  min-width: 60rem;
 }
 
-/* Make the anchor white */
 .cmp-teaser--hero .cmp-teaser__title-text a {
   color: #fff;
   text-decoration: none;
   font-family: "BebasNeue", sans-serif;
 }
 
-.cmp-teaser--hero .cmp-teaser__title h2 a {
-  font-size: 8vw;
+.cmp-teaser--hero .cmp-teaser__title h1 a {
+  font-size: 12rem;
+  line-height: .75;
+  position: relative;
+  left: -.7rem;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.cmp-teaser--hero .cmp-teaser__title {
+  max-width: 90rem;
+  padding: 3rem 3rem;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  top: .6rem;
 }
