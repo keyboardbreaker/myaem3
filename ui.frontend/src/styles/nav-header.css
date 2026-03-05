@@ -68,3 +68,9 @@
 .nav-header .cmp-languagenavigation__item {
   display: none;
 }
+
+.nav-logo .cmp-image img{
+  width: 121px;
+  height: 121px;
+  margin-left:20px;
+}
