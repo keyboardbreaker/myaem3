@@ -29,7 +29,7 @@
   font-family: "BebasNeue", sans-serif;
 }
 
-.cmp-teaser--hero .cmp-teaser__title h1 a {
+.cmp-teaser--hero .cmp-teaser__title-text a {
   font-size: 12rem;
   line-height: .75;
   position: relative;
@@ -45,4 +45,10 @@
   display: flex;
   align-items: flex-end;
   top: .6rem;
+}
+
+@media(width <= 1440px) {
+  .cmp-teaser--hero .cmp-teaser__title {
+    top: -13rem;
+  }
 }
