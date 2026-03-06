@@ -16,6 +16,10 @@ import './styles/layout.css';
 import './styles/font.css';
 import './styles/orange-promo.css';
 import './styles/nav-header.css';
+import './styles/footer.css';
+import './styles/navy-promo.css';
+import './styles/navy-promo-cta.css';
+import './styles/navy-button.css';
 const modelManagerOptions = {};
 if(process.env.REACT_APP_PROXY_ENABLED) {
     modelManagerOptions.modelClient = new LocalDevModelClient(process.env.REACT_APP_API_HOST);

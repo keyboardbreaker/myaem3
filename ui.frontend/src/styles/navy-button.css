@@ -1,0 +1,23 @@
+.navy-button .cmp-button {
+    font-family: "BebasNeue", sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+    min-height: 4.4rem;
+    padding: .5rem 2.4rem;
+    background: white;
+    border: 2px solid white;
+    border-radius: 2.4rem;
+    color: #00163b;
+    transition: background-color .3s, opacity .3s, color .3s, border-color .3s;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+}

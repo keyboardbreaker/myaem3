@@ -73,4 +73,11 @@
   width: 121px;
   height: 121px;
   margin-left:20px;
+  max-width: 8rem;
+}
+
+.cmp-image--logo .cmp-image__image {
+  margin-bottom: 7px;
+  margin-top: 7px;
+  max-width: 8rem;
 }
