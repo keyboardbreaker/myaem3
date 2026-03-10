@@ -21,6 +21,7 @@ import './styles/navy-promo.css';
 import './styles/navy-promo-cta.css';
 import './styles/navy-button.css';
 import './styles/raf-hero.css';
+import './styles/orange-3-col-promo.css';
 
 const modelManagerOptions = {};
 if(process.env.REACT_APP_PROXY_ENABLED) {
